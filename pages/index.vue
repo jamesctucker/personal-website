@@ -4,3 +4,8 @@
     alt="work in progress"
   />
 </template>
+<script setup>
+definePageMeta({
+  title: "Home",
+});
+</script>
