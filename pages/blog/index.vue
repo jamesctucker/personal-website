@@ -9,3 +9,8 @@
     </div>
   </ContentList>
 </template>
+<script setup>
+definePageMeta({
+  title: "Blog",
+});
+</script>
