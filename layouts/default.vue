@@ -1,10 +1,12 @@
 <template>
-  <div>
-    <Nav />
-    <main>
-      <slot />
-    </main>
-    <Footer />
+  <div class="flex flex-col items-center min-h-screen">
+    <div class="lg:max-w-3xl w-full relative">
+      <Nav />
+      <main>
+        <slot />
+      </main>
+      <Footer />
+    </div>
   </div>
 </template>
 <script setup>
