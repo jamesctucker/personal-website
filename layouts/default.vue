@@ -2,7 +2,7 @@
   <div class="flex flex-col items-center min-h-screen">
     <div class="lg:max-w-3xl w-full relative">
       <Nav />
-      <main>
+      <main class="p-4">
         <slot />
       </main>
       <Footer />

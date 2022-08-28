@@ -9,4 +9,10 @@ export default defineNuxtConfig({
     "@nuxtjs/color-mode",
     "@nuxt/content",
   ],
+  build: {
+    transpile: ["@heroicons/vue"],
+  },
+  colorMode: {
+    classSuffix: "",
+  },
 });
