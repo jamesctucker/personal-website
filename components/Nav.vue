@@ -14,7 +14,6 @@ import { SunIcon } from "@heroicons/vue/24/outline";
 
 const colorMode = useColorMode();
 const changePreference = () => {
-  console.log("here", colorMode.preference);
   if (colorMode.preference === "dark") {
     colorMode.preference = "light";
   } else {
